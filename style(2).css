@@ -1,0 +1,789 @@
+/*
+
+ Theme Name:     DS Attorney
+ Theme URI:      https://www.46fathoms.com
+ Description:    
+ Author:         Freshwater Agency
+ Author URI:     https://clockwork360.com
+ Template:       Divi
+ Version:        1.0.0
+
+*/
+
+/*....................................................................................*/
+/*.............. IMPORTANT: UTILIZING THE AUTOMATIC UPDATE FEATURE OF THIS CHILD THEME WILL OVERWRITE ANY CUSTOM CODE PLACED WITHIN THIS FILE. 
+ * IF YOU WISH TO AUTOMATICALLY UPDATE, PLEASE PLACE YOUR CODE IN THEME OPTIONS >> CUSTOM CSS OTHERWISE YOU CAN MANUALLY UPDATE 
+ * THE THEME FILES..........*/
+/*....................................................................................*/
+
+/*=====================================
+			TOP MENU 
+===================================== */
+
+#main-header {
+	box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#main-header li.current-menu-item a {
+	color: #fff !important;
+}
+
+#et-info {
+	float: right !important;
+}
+
+.container.clearfix {
+	position: relative;
+}
+
+.logo_container {
+	position: absolute;
+	top: -108px;
+	left: 0;
+}
+
+#et-info {
+	float: right !important;
+	padding-top: 30px;
+}
+
+#top-header .container.clearfix {
+	padding-bottom: 25px;
+}
+
+#et-info-phone:after {
+	content: "CALL NOW:";
+	position: absolute;
+	top: -16px;
+	left: 47px;
+	font-size: 11px;
+}
+
+#et-info-phone:before, 
+#et-info-email:before  {
+	font-size: 35px;
+	padding:5px;
+}
+
+#et-info-email:after {
+	content: "EMAIL:";
+	position: absolute;
+	top: -16px;
+	left: 50px; 
+	font-size: 11px;
+}
+
+nav#top-menu-nav {
+	padding-top: 15px;
+}
+
+/*=====================================
+			Home
+===================================== */
+
+#home-section-3 .et_pb_blurb_container {
+	padding-left: 30px !important;
+}
+
+#home-section-portfolio .et_pb_grid_item,
+#porfolio-module .et_pb_grid_item {
+	position: relative !important;
+}
+
+#home-section-portfolio h2, 
+#porfolio-module h2 {
+	position: absolute;
+	bottom: 10px;
+	display: block;
+	width: 100%;
+	text-align: center;
+} 
+
+#blurb-contact a {
+	color: #fff;	
+}
+
+#home-historyactlicle-module span {
+	color: #aaaaaa;
+}
+
+#nav_menu-6 {
+	width: 100% !important;
+	margin-bottom: 0 !important;
+}
+
+.et_pb_toggle_close .et_pb_toggle_title::before {
+	content: "3";
+	font-size: 20px;
+}
+
+.et_pb_toggle_open .et_pb_toggle_title::before {
+	content: "2";
+	font-size: 20px;
+}
+
+.et_pb_accordion .et_pb_toggle_open .et_pb_toggle_title::before {
+	display: block;	
+}
+
+.et_pb_toggle {
+	border: none;
+	box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2);	
+}
+
+#military-law-section-2 .et_pb_text  ul li {
+	list-style: none;
+	margin: 0;
+	padding: 0px 30px;
+	display: inline-block; 
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 18px;
+}
+
+#military-law-section-2 .et_pb_text_2 p:before { 
+	padding-right: 10px;
+	vertical-align: middle;
+}
+
+#home-section-3 .et_pb_blurb img {
+	border-radius: 100%;
+}
+
+#home-section-3 .et_pb_blurb:hover img {
+	border: 1px solid #fff;
+}
+
+#home-section-3 .et_pb_blurb:hover h4,
+#home-section-3 .et_pb_blurb:hover .et_pb_blurb_container {
+	color: #fff !important;
+}
+
+#home-section-3 .et_pb_blurb, 
+#home-section-3 .et_pb_blurb img, 
+#home-section-3 .et_pb_blurb h4, 
+#home-section-3 .et_pb_blurb .et_pb_blurb_container {
+	transition: all 1s;
+}
+
+#home-section-portfolio:hover h2 {
+	z-index: 9;
+}
+
+/*=====================================
+			CONTACT US
+===================================== */
+
+#contactus-section-1 .et_pb_map {
+	max-height: 395px;
+}
+
+#contactus-section-2  .et_pb_team_member .et_pb_team_member_image { 
+	text-align: center;
+	margin: 0px auto 12px;
+}
+
+#contactus-section-2 .et_pb_team_member h4,
+#contactus-section-2 .et_pb_team_member .et_pb_member_position {
+	text-align: center;
+}
+
+#contactus-section-2 .et_pb_team_member .et_pb_member_position {
+	margin-bottom: 10px;
+}
+
+#about-content-module p:nth-last-child(2) {
+	padding-top: 30px;
+}
+
+/*=====================================
+			CALDERA
+===================================== */
+
+#caldera-form-module-01 .form-control {
+	height: 50px !important;
+	margin-bottom: 20px;
+	border-width: 0 0 3px 0;
+	border-style: solid ; 
+	font-family: 'Vollkorn', Georgia, "Times New Roman", serif !important;
+	font-size: 17px;
+	color: #000;
+}
+
+#caldera-form-module-01 .btn { 
+	display: block;
+	width: 100%;
+	font-size: 16px;
+	font-weight: bold;
+	border-width: 0 0 4px 0;
+	border-style: solid ; 
+	padding: 8px 12px; 
+	font-family: 'Source Sans Pro', Helvetica, Arial, Lucida, sans-serif;
+	margin-bottom: 35px;
+}
+
+#caldera-form-module-01 .btn:hover {
+	color: #f5f5f5; 
+}
+
+#caldera-form-module-02 .form-control { 
+	padding: 12px 12px !important;
+	height: auto;
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-width: 0 0 3px 0;
+	border-style: solid ;
+	font-size: 16px;
+}
+
+#caldera-form-module-02 .btn { 
+	color: #fff;
+	padding: 9px 70px;
+	font-size: 20px;
+	font-weight: bold;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-width: 0 0 3px 0;
+	border-style: solid ; 
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#caldera-form-module-02 .btn:hover { 
+	transition: all 0.2s;
+}
+
+#caldera-form-module-02 .form-group {
+	text-align: right;
+}
+
+/*=====================================
+			Sidebar
+===================================== */
+
+#about-sidebar li {
+	position: relative;
+}
+
+#about-sidebar li a {
+	color: #fff;
+	font-family: Montserrat;
+	font-weight: 700;
+	padding: 13px 30px;
+	border-width: 2px ;
+	border-style: solid;
+	display: block;
+}
+
+#about-sidebar.et_pb_widget_area_left {
+	padding-right: 0;
+	border-right: none;
+}
+
+#about-sidebar .et_pb_column .et_pb_widget:nth-child(n) {
+	width: 100% !important;
+}
+
+#about-sidebar .et_pb_widget {
+	margin-bottom: 0px !important;
+}
+
+#about-sidebar li a:after {
+	content: url(/wp-content/uploads/2017/01/footer-hoverarrow-icon.png) !important;
+	position: absolute;
+	top: 17px;
+	right: 10px;
+	display: inline-block;
+	transform: scale(0.8);
+}
+
+#about-sidebar li a:hover{
+	background-color: #fff !important; 
+}
+
+#call-us-now-img img, 
+#ml-call-us-now-img img {
+	width: 80%;
+	margin: auto;
+	display: block;
+}
+
+/*=====================================
+			TESTIMONIAL
+===================================== */
+
+#testimonial-section-1 .et_pb_testimonial_author {
+	display: -webkit-inline-box;
+}
+
+#testimonial-section-1 .et_pb_testimonial_meta {
+	display: -webkit-inline-box;
+	padding-left: 5px;
+}
+
+/*=====================================
+			FOOTER
+===================================== */
+
+#text-3 .textwidget img {
+	max-width: 200px;
+	margin-bottom: 10px;
+}
+
+.textwidget .footer-btn {
+	color: #fff; 
+	padding: 10px 20px;
+	border-width:  0 0 3px 0;
+	border-style: solid;
+	font-family: Volkorn;
+	font-size: 18px;
+}
+
+#main-footer .footer-widget .title {
+	color: #fff;
+	font-weight: 700;
+}
+
+#main-footer .footer-widget li a,
+#main-footer .footer-widget .textwidget {
+	color: #666672;
+	font-family: Volkorn;
+	font-size: 16px;
+}
+
+#main-footer .footer-widget li:hover a,
+#main-footer .footer-widget li a:active {
+	color: #fff !important;
+}
+
+#footer-info {
+	float: none;
+	text-align: center;
+}
+
+#giu-loc, 
+#op-num, 
+#email-adrs,
+#time-io {
+	display: inline-flex;
+}
+
+#giu-loc:before {
+	content: url('/wp-content/uploads/2017/01/footer-ping-img.png');
+	padding-right: 5px;
+	display: block;
+	transform: scale(0.6);
+	position: relative;
+	top: -5px;
+}
+
+#op-num:before {
+	content: url('/wp-content/uploads/2017/01/footer-telephone-img.png');
+	padding-right: 5px;
+	display: block;
+	transform: scale(0.6);
+}
+
+#email-adrs:before {
+	content: url('/wp-content/uploads/2017/01/footer-envelope-img.png');
+	padding-right: 5px;
+	display: block;
+	transform: scale(0.6);
+}
+
+#time-io:before {
+	content: url('/wp-content/uploads/2017/01/footer-clock-img.png');
+	padding-right: 5px;
+	display: block;
+	transform: scale(0.6);
+}
+
+#footer-widgets .footer-widget li:before {
+	content: url('/wp-content/uploads/2017/01/footer-hoverarrow-icon.png') !important;
+	padding-right: 5px !important;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+	transform: scale(0.6);
+	border: none;
+	display: none;
+}
+
+#footer-widgets .footer-widget li:hover:before{
+    display: block !important;
+}
+
+#text-6 p {
+	padding-bottom: 10px;
+}
+
+#text-6 p:last-child {
+    margin-top: 15px;
+}
+
+.et_pb_gutters3.et_pb_footer_columns4 .footer-widget {
+	width: 14.875%;
+}
+
+.et_pb_gutters3.et_pb_footer_columns4 .footer-widget:first-child {
+	width: 38.875%;
+}
+
+/*=====================================
+			MEDIA QUERIES
+===================================== */
+
+@media only screen and (max-width: 1200px) and (min-width: 981px) {
+	.sched-a-cons {
+		font-size:  17px !important;	
+	}
+}
+
+@media only screen and (max-width: 1122px) and (min-width: 981px) {
+	.textwidget .footer-btn {
+		font-size: 14px;	
+	}
+} 
+
+@media only screen and (max-width: 980px) {
+	#et-info-phone {
+		margin-right: 0px;
+	}
+	#logo {
+		max-height: 35px !important;
+	}
+	#home-section-3 .et_pb_blurb.et_pb_module {
+		margin-left: auto;
+		margin-right: auto;
+	 }
+	#et-info-email {
+		float: right;
+	}
+	.testimonial-title {
+		text-align: center !important;	
+	}
+	.et_pb_toggle {
+		margin-bottom: 15px !important;
+	}
+}
+
+@media (max-width: 980px) and (min-width: 641px){
+	#et-info-email:after {
+		top: 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#et-info-phone,
+	#et-info-email {
+		font-size: 12px;
+	}
+}
+
+@media only screen and (max-width: 1130px) and (min-width: 981px) {
+	#contact-person .et_pb_team_member_description h4 {
+		font-size: 14px;	
+	}
+	#contact-person ul {
+		padding: 0;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	#home-testimonial-module .et_pb_testimonial_meta,
+	#home-testimonial-module .et_pb_testimonial_author  {
+		display: inline-block;
+	}
+	#home-testimonial-module .et_pb_testimonial_author {
+		margin-right: 5px;
+	} 
+}
+
+@media only screen and (max-width: 676px) {
+	.home-consultation-column {
+		height: 322.7px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+    .logo_container {
+        top: -170px;
+        width: 100%;
+    }
+    #et-info-email {
+        float: none;
+    }
+    #et-info {
+        padding-top: 90px;
+        width: 100%;
+        float: none !important;
+        text-align: center;
+    }
+    #logo {
+        max-height: 45px !important;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+	.home-consultation-column {
+		height: auto;
+	}
+}
+
+@media only screen and (max-width: 569px) {
+	#et-info-email {
+		float: none !important;
+	}
+	#et-info-email:after {
+		top: -16px;
+	}
+}
+
+@media only screen and (max-width: 452px){
+	#et-info-email:after, 
+	#et-info-phone:after {
+		top: -16px;
+	}
+}
+
+@media only screen and (max-width: 372px){
+	.logo_container {
+		top: -215px;
+	}
+}
+
+@media only screen and (min-width: 1700px){
+	#contactus-section-1 .et_pb_map {
+		height: 545px;
+		max-height: 545px;
+	}
+	#caldera-form-module-01 .form-control {
+		margin-bottom: 30px;
+	}
+	#caldera-form-module-01 .btn {
+		padding: 20px 12px;
+		margin-bottom: 110px;
+	}
+	.title-text-module{
+		font-size: 30px !important;
+	}
+}
+
+@media only screen and (min-width: 1221px){
+	#top-menu li {
+		padding-right: 40px;
+	}
+}
+
+@media only screen and (min-width: 1200px){
+	.image-BG-module img{
+		height: 345px;
+		object-fit: cover;
+	}
+}
+
+/*=====================================
+			BLOG
+===================================== */
+
+.interior-header {
+	padding: 50px 0;
+	color: #fff;
+}
+
+.interior-header .container {
+	border-width: 0 0 0 5px;
+	border-style: solid;
+	padding : 5px 0 5px 25px;
+}
+
+.interior-header p {
+	font-family: 'Vollkorn', Georgia, "Times New Roman", serif !important;
+	font-style: italic ;
+	font-size: 18px;
+	line-height: 1.5;
+}
+
+ .interior-header h2 {
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+	font-weight: bold ; 
+	font-size: 38px ;
+	color: #ffffff ; 
+	line-height: 1.25;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.et_pb_post  {
+	font-family: 'Vollkorn', Georgia, "Times New Roman", serif;
+	font-size: 15px;
+	line-height: 1.5em;
+	color: rgba(0, 0, 0, 0.6);
+}
+
+.et_pb_post h2.entry-title {
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: bold;
+	padding-bottom: 0;
+	font-size: 25px;
+	color: #000000;
+	line-height: 1.3em;
+}
+
+@media (max-width: 600px) {
+	.interior-header p { 
+		font-size: 16px; 
+	}
+	 .interior-header h2 { 
+		font-size: 30px !important;
+	}
+	.interior-header .container {
+		border-width:  0 0 0 3px ;
+		padding-left : 15px;
+	}
+}
+
+/*=====================================
+			NAVIGATION
+===================================== */
+
+.pagination {
+	margin-bottom: 40px; 
+}
+ 
+.pagination a {
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: bold;
+	font-size: 17px;
+	color: #000000;
+	line-height: 1.3em;
+	position: relative;
+	display: block;
+	padding: 10px 25px;
+	border-width: 2px;
+	border-style: solid;
+	margin-bottom: 10px;
+}
+
+.pagination a:hover {
+	color: #fff; 
+}
+
+@media (max-width: 600px) {
+	.pagination .alignleft, .pagination .alignright {
+		float: none;
+	}
+	.pagination .alignright  {
+		text-align: right;
+	}
+}
+
+/*=====================================
+			SEARCH FORM
+===================================== */
+
+.search .search-box {
+	font-size: 0;
+	position: relative;
+	margin-bottom: 20px;
+}
+
+.search .search-box input {
+	padding:  13px 15px !important;
+	font-size: 15px;
+}
+
+.search .search-box  input[type=text] {
+	width: calc(100% - 100px);
+	border-color: #E3E3E3;
+}
+
+.search .search-box  input[type=submit] {
+	width: 100px;
+	box-shadow: none;
+	border-width:1px;
+	border-style: solid ; 
+	color: #fff;
+	font-size: 15px;
+}
+
+/*=====================================
+			SINGLE POST
+===================================== */
+
+.single .interior-header {
+	padding: 75px 0;
+}
+
+.interior-header .post-meta {
+	font-size: 16px; 
+	margin-bottom: 5px;
+}
+
+.interior-header .post-meta a {
+	color:inherit;
+}
+
+.interior-header h1.entry-title {
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif !important;
+	font-weight: bold ; 
+	font-size: 35px ;
+	color: #ffffff ; 
+	line-height: 1.25;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+@media (max-width: 600px) {
+	.interior-header h1.entry-title { 
+		font-size: 30px ;
+	}
+} 
+
+/*=====================================
+			SIDEBAR
+===================================== */
+
+#main-content .container:before {
+	display: none;
+}
+
+#sidebar h4.widgettitle {
+	font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
+	font-weight: bold;
+	padding-bottom: 0;
+	font-size: 18px;
+	color: #000000 !important;
+	line-height: 1.3em; 
+}
+
+#sidebar ul {
+	margin: 0; 
+}
+
+#sidebar ul li {
+	list-style-type: none;
+	font-size: 14px;
+	line-height: 1.5;
+	padding: 15px 0px 15px 18px;
+	border-bottom: 1px solid #E9E9E9;
+	position: relative;
+}
+
+#sidebar ul li:before {
+	font-family: "ETmodules";
+	font-size: 13px;
+	position: absolute;
+	content: "\35";
+	top: 17px;
+	font-weight: bold;
+	left: 0px;
+}
+
+#sidebar ul li a {
+	color: #222;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 22px; 
+}
